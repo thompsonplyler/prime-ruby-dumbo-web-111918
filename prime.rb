@@ -5,7 +5,7 @@ def prime?(x)
     elsif x % y == 0 
       return false
     else 
-      retirm true
+      return true
     end
   end
   true
