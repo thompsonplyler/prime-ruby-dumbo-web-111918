@@ -1,4 +1,5 @@
 def prime?(x)
+  
   if x < 0 
     return false
   else 
@@ -7,5 +8,7 @@ def prime?(x)
         return false
       end
   end
+  
   true
+
 end
