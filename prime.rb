@@ -4,6 +4,8 @@ def prime?(x)
       return false
     elsif x % y == 0 
       return false
+    else 
+      retirm true
     end
   end
   true
