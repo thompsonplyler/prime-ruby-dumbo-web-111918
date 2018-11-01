@@ -1,6 +1,6 @@
 def prime?(x)
   
-  if x < 1 
+  if x < 2 
     return false
   else 
     (2...x).each do |y|
